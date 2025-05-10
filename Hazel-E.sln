@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "T-1", "T-1\T-1.vcxproj", "{10EA281D-B08D-4294-9986-AE7CAE339CBB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Hazel-E", "Hazel-E.vcxproj", "{FEA1225C-9CF9-4C83-96EC-7C62E990FA72}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FEA1225C-9CF9-4C83-96EC-7C62E990FA72}.Debug|x64.ActiveCfg = Debug|x64
+		{FEA1225C-9CF9-4C83-96EC-7C62E990FA72}.Debug|x64.Build.0 = Debug|x64
+		{FEA1225C-9CF9-4C83-96EC-7C62E990FA72}.Release|x64.ActiveCfg = Release|x64
+		{FEA1225C-9CF9-4C83-96EC-7C62E990FA72}.Release|x64.Build.0 = Release|x64
+		{10EA281D-B08D-4294-9986-AE7CAE339CBB}.Debug|x64.ActiveCfg = Debug|x64
+		{10EA281D-B08D-4294-9986-AE7CAE339CBB}.Debug|x64.Build.0 = Debug|x64
+		{10EA281D-B08D-4294-9986-AE7CAE339CBB}.Release|x64.ActiveCfg = Release|x64
+		{10EA281D-B08D-4294-9986-AE7CAE339CBB}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
