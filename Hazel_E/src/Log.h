@@ -10,22 +10,26 @@ namespace Hazel_E
     {
     public:
         static void Init();
-        inline static std::shared_ptr<spdlog::logger>& GetCoreLogger() { return s_CoreLogger; }
-        inline static std::shared_ptr<spdlog::logger>& GetClientLogger() { return s_ClientLogger; }
+        static std::shared_ptr<spdlog::logger>& GetCoreLogger();
+        static std::shared_ptr<spdlog::logger>& GetClientLogger();
 
     private:
-        static std::shared_ptr<spdlog::logger> s_CoreLogger;
-        static std::shared_ptr<spdlog::logger> s_ClientLogger;
+     static std::shared_ptr<spdlog::logger> s_CoreLogger;
+     static std::shared_ptr<spdlog::logger> s_ClientLogger;
     };
 
- 
+   
+
+    // é™æ€æˆå‘˜å‡½æ•°çš„å®ç°
+    inline std::shared_ptr<spdlog::logger>& Log::GetCoreLogger() { return s_CoreLogger; }
+    inline std::shared_ptr<spdlog::logger>& Log::GetClientLogger() { return s_ClientLogger; }
 }
-#define HAZEL_CORE_ERROR(...)       ::Hazel_E::Log::GetCoreLogger()->error(__VA_ARGS__)//Ê¹ÓÃºê¶¨ÒåÒÔ±ãÊä³öÈÕÖ¾   ×îÇ°ÃæµÄ::±íÊ¾Ã÷È·µ÷ÓÃÈ«¾ÖµÄHazel_E×÷ÓÃÓò
+#define HAZEL_CORE_ERROR(...)       ::Hazel_E::Log::GetCoreLogger()->error(__VA_ARGS__)//ä½¿ç”¨å®å®šä¹‰ä»¥ä¾¿è¾“å‡ºæ—¥å¿—   æœ€å‰é¢çš„::è¡¨ç¤ºæ˜ç¡®è°ƒç”¨å…¨å±€çš„Hazel_Eä½œç”¨åŸŸ
 #define HAZEL_CORE_WARN(...)        ::Hazel_E::Log::GetCoreLogger()->warn(__VA_ARGS__)
 #define HAZEL_CORE_INFO(...)        ::Hazel_E::Log::GetCoreLogger()->info(__VA_ARGS__)
 #define HAZEL_CORE_TRACE(...)       ::Hazel_E::Log::GetCoreLogger()->trace(__VA_ARGS__)
 
-#define HAZEL_ERROR(...)            ::Hazel_E::Log::GetClientLogger()->error(__VA_ARGS__)//¿Í»§¶ËÈÕÖ¾ºê
+#define HAZEL_ERROR(...)            ::Hazel_E::Log::GetClientLogger()->error(__VA_ARGS__)//å®¢æˆ·ç«¯æ—¥å¿—å®
 #define HAZEL_WARN(...)             ::Hazel_E::Log::GetClientLogger()->warn(__VA_ARGS__)
 #define HAZEL_INFO(...)             ::Hazel_E::Log::GetClientLogger()->info(__VA_ARGS__)
 #define HAZEL_TRACE(...)            ::Hazel_E::Log::GetClientLogger()->trace(__VA_ARGS__)

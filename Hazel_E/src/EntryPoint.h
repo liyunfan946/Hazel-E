@@ -10,6 +10,7 @@ int main(int argc, char** argv) {
     Hazel_E::Log::Init();
     Hazel_E::Log::GetCoreLogger()->info("Hazel_E Engine Started!");
     Hazel_E::Log::GetClientLogger()->info("Hazel_E Client Started!");
+    HAZEL_ERROR("Hello World!");
     auto app = Hazel_E::CreateApplication();
     app->Run();
     delete app;
