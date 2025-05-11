@@ -1,21 +1,16 @@
 #include <Hazel_E.h>
 
-
-class Sandbox : public Hazel_E::Application
+namespace Hazel_E
 {
-public:
-	Sandbox()
-	{
+    class Sandbox : public Application
+    {
+    public:
+        Sandbox() {}
+        ~Sandbox() {}
+    };
 
-	}
-
-	~Sandbox()
-	{
-
-	}
-};
-
-Hazel_E::Application* Hazel_E::CreateApplication()
-{
-	return new Sandbox();
+    Application* CreateApplication()
+    {
+        return new Sandbox();
+    }
 }

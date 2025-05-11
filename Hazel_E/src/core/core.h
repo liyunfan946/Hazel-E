@@ -1,10 +1,10 @@
 #pragma once
 
-#ifdef HZ_PLATFORM_WINDOWS//ÕâÀïÊÇwindowsÆ½Ì¨ÏÂµÄºê¶¨Òå  VSÀïÉèÖÃºÃºó¾Í»á¸ù¾İÕâ¸öºê¶¨ÒåÀ´ÅĞ¶ÏÊÇ±àÒëdll»¹ÊÇµ¼Èëdll
-	#ifdef HZ_BUILD_DLL//ÕâÀïÊÇ±àÒëdll
-		#define HAZEL_API __declspec(dllexport)// µ¼³ödll
+#ifdef HZ_PLATFORM_WINDOWS//è¿™é‡Œæ˜¯windowså¹³å°ä¸‹çš„å®å®šä¹‰  VSé‡Œè®¾ç½®å¥½åå°±ä¼šæ ¹æ®è¿™ä¸ªå®å®šä¹‰æ¥åˆ¤æ–­æ˜¯ç¼–è¯‘dllè¿˜æ˜¯å¯¼å…¥dll
+	#ifdef HZ_BUILD_DLL//è¿™é‡Œæ˜¯ç¼–è¯‘dll
+		#define HAZEL_API __declspec(dllexport)// å¯¼å‡ºdll
 	#else
-		#define HAZEL_API __declspec(dllimport)// µ¼Èëdll
+		#define HAZEL_API __declspec(dllimport)// å¯¼å…¥dll
 	#endif
 #else
 	#error Hazel_E only supports Windows!
