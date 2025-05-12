@@ -24,7 +24,7 @@ events:
       The output was:
       0
       閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.12.12+1cce77968
-      鐢熸垚鍚姩鏃堕棿涓?2025/5/11 21:28:30銆?
+      鐢熸垚鍚姩鏃堕棿涓?2025/5/12 19:00:00銆?
       
       鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\Dev\\Hazel-E\\build\\CMakeFiles\\4.0.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj鈥?榛樿鐩爣)銆?
       PrepareForBuild:
@@ -61,7 +61,7 @@ events:
           0 涓鍛?
           0 涓敊璇?
       
-      宸茬敤鏃堕棿 00:00:02.98
+      宸茬敤鏃堕棿 00:00:03.22
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -80,8 +80,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "D:/Dev/Hazel-E/build/CMakeFiles/CMakeScratch/TryCompile-zlacdm"
-      binary: "D:/Dev/Hazel-E/build/CMakeFiles/CMakeScratch/TryCompile-zlacdm"
+      source: "D:/Dev/Hazel-E/build/CMakeFiles/CMakeScratch/TryCompile-4a899m"
+      binary: "D:/Dev/Hazel-E/build/CMakeFiles/CMakeScratch/TryCompile-4a899m"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -91,48 +91,48 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/Dev/Hazel-E/build/CMakeFiles/CMakeScratch/TryCompile-zlacdm'
+        Change Dir: 'D:/Dev/Hazel-E/build/CMakeFiles/CMakeScratch/TryCompile-4a899m'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_7deb3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_cf73e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.12.12+1cce77968
-        鐢熸垚鍚姩鏃堕棿涓?2025/5/11 21:28:34銆?
+        鐢熸垚鍚姩鏃堕棿涓?2025/5/12 19:00:05銆?
         
-        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zlacdm\\cmTC_7deb3.vcxproj鈥?榛樿鐩爣)銆?
+        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4a899m\\cmTC_cf73e.vcxproj鈥?榛樿鐩爣)銆?
         PrepareForBuild:
-          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_7deb3.dir\\Debug\\鈥濄€?
-          姝ｅ湪鍒涘缓鐩綍鈥淒:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zlacdm\\Debug\\鈥濄€?
-          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_7deb3.dir\\Debug\\cmTC_7deb3.tlog\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_cf73e.dir\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥淒:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4a899m\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_cf73e.dir\\Debug\\cmTC_cf73e.tlog\\鈥濄€?
         InitializeBuildStatus:
-          姝ｅ湪鍒涘缓鈥渃mTC_7deb3.dir\\Debug\\cmTC_7deb3.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
-          姝ｅ湪瀵光€渃mTC_7deb3.dir\\Debug\\cmTC_7deb3.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+          姝ｅ湪鍒涘缓鈥渃mTC_cf73e.dir\\Debug\\cmTC_cf73e.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_cf73e.dir\\Debug\\cmTC_cf73e.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
         VcpkgTripletSelection:
           Using triplet "x64-windows" from "D:\\VSPKG\\vcpkg\\installed\\x64-windows\\"
           Using normalized configuration "Debug"
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\VSPKG\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_7deb3.dir\\Debug\\\\" /Fd"cmTC_7deb3.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\VSPKG\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_cf73e.dir\\Debug\\\\" /Fd"cmTC_cf73e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
           鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.36.32548 鐗?
           鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
           CMakeCXXCompilerABI.cpp
-          cl /c /I"D:\\VSPKG\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_7deb3.dir\\Debug\\\\" /Fd"cmTC_7deb3.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /I"D:\\VSPKG\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_cf73e.dir\\Debug\\\\" /Fd"cmTC_cf73e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zlacdm\\Debug\\cmTC_7deb3.exe" /INCREMENTAL /ILK:"cmTC_7deb3.dir\\Debug\\cmTC_7deb3.ilk" /NOLOGO /LIBPATH:"D:\\VSPKG\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"D:\\VSPKG\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "D:\\VSPKG\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Dev/Hazel-E/build/CMakeFiles/CMakeScratch/TryCompile-zlacdm/Debug/cmTC_7deb3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Dev/Hazel-E/build/CMakeFiles/CMakeScratch/TryCompile-zlacdm/Debug/cmTC_7deb3.lib" /MACHINE:X64  /machine:x64 cmTC_7deb3.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_7deb3.vcxproj -> D:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zlacdm\\Debug\\cmTC_7deb3.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4a899m\\Debug\\cmTC_cf73e.exe" /INCREMENTAL /ILK:"cmTC_cf73e.dir\\Debug\\cmTC_cf73e.ilk" /NOLOGO /LIBPATH:"D:\\VSPKG\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"D:\\VSPKG\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "D:\\VSPKG\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Dev/Hazel-E/build/CMakeFiles/CMakeScratch/TryCompile-4a899m/Debug/cmTC_cf73e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Dev/Hazel-E/build/CMakeFiles/CMakeScratch/TryCompile-4a899m/Debug/cmTC_cf73e.lib" /MACHINE:X64  /machine:x64 cmTC_cf73e.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_cf73e.vcxproj -> D:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4a899m\\Debug\\cmTC_cf73e.exe
         AppLocalFromInstalled:
-          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\VSPKG\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zlacdm\\Debug\\cmTC_7deb3.exe" "D:\\VSPKG\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_7deb3.dir\\Debug\\cmTC_7deb3.tlog\\cmTC_7deb3.write.1u.tlog" "cmTC_7deb3.dir\\Debug\\vcpkg.applocal.log"
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\VSPKG\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4a899m\\Debug\\cmTC_cf73e.exe" "D:\\VSPKG\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_cf73e.dir\\Debug\\cmTC_cf73e.tlog\\cmTC_cf73e.write.1u.tlog" "cmTC_cf73e.dir\\Debug\\vcpkg.applocal.log"
           'pwsh.exe' 涓嶆槸鍐呴儴鎴栧閮ㄥ懡浠わ紝涔熶笉鏄彲杩愯鐨勭▼搴?
           鎴栨壒澶勭悊鏂囦欢銆?
-          鍛戒护鈥減wsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\VSPKG\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zlacdm\\Debug\\cmTC_7deb3.exe" "D:\\VSPKG\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_7deb3.dir\\Debug\\cmTC_7deb3.tlog\\cmTC_7deb3.write.1u.tlog" "cmTC_7deb3.dir\\Debug\\vcpkg.applocal.log"鈥濆凡閫€鍑猴紝浠ｇ爜涓?9009銆?
-          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "D:\\VSPKG\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zlacdm\\Debug\\cmTC_7deb3.exe" "D:\\VSPKG\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_7deb3.dir\\Debug\\cmTC_7deb3.tlog\\cmTC_7deb3.write.1u.tlog" "cmTC_7deb3.dir\\Debug\\vcpkg.applocal.log"
+          鍛戒护鈥減wsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\VSPKG\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4a899m\\Debug\\cmTC_cf73e.exe" "D:\\VSPKG\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_cf73e.dir\\Debug\\cmTC_cf73e.tlog\\cmTC_cf73e.write.1u.tlog" "cmTC_cf73e.dir\\Debug\\vcpkg.applocal.log"鈥濆凡閫€鍑猴紝浠ｇ爜涓?9009銆?
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "D:\\VSPKG\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4a899m\\Debug\\cmTC_cf73e.exe" "D:\\VSPKG\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_cf73e.dir\\Debug\\cmTC_cf73e.tlog\\cmTC_cf73e.write.1u.tlog" "cmTC_cf73e.dir\\Debug\\vcpkg.applocal.log"
         FinalizeBuildStatus:
-          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_7deb3.dir\\Debug\\cmTC_7deb3.tlog\\unsuccessfulbuild鈥濄€?
-          姝ｅ湪瀵光€渃mTC_7deb3.dir\\Debug\\cmTC_7deb3.tlog\\cmTC_7deb3.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
-        宸插畬鎴愮敓鎴愰」鐩€淒:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zlacdm\\cmTC_7deb3.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_cf73e.dir\\Debug\\cmTC_cf73e.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_cf73e.dir\\Debug\\cmTC_cf73e.tlog\\cmTC_cf73e.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淒:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4a899m\\cmTC_cf73e.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
         
         宸叉垚鍔熺敓鎴愩€?
             0 涓鍛?
             0 涓敊璇?
         
-        宸茬敤鏃堕棿 00:00:02.65
+        宸茬敤鏃堕棿 00:00:02.72
         
       exitCode: 0
   -
@@ -174,8 +174,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "D:/Dev/Hazel-E/build/CMakeFiles/CMakeScratch/TryCompile-nip1z5"
-      binary: "D:/Dev/Hazel-E/build/CMakeFiles/CMakeScratch/TryCompile-nip1z5"
+      source: "D:/Dev/Hazel-E/build/CMakeFiles/CMakeScratch/TryCompile-fvnxio"
+      binary: "D:/Dev/Hazel-E/build/CMakeFiles/CMakeScratch/TryCompile-fvnxio"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -184,42 +184,42 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'D:/Dev/Hazel-E/build/CMakeFiles/CMakeScratch/TryCompile-nip1z5'
+        Change Dir: 'D:/Dev/Hazel-E/build/CMakeFiles/CMakeScratch/TryCompile-fvnxio'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_487b4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_23284.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.12.12+1cce77968
-        鐢熸垚鍚姩鏃堕棿涓?2025/5/11 21:28:38銆?
+        鐢熸垚鍚姩鏃堕棿涓?2025/5/12 19:00:08銆?
         
-        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nip1z5\\cmTC_487b4.vcxproj鈥?榛樿鐩爣)銆?
+        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fvnxio\\cmTC_23284.vcxproj鈥?榛樿鐩爣)銆?
         PrepareForBuild:
-          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_487b4.dir\\Debug\\鈥濄€?
-          姝ｅ湪鍒涘缓鐩綍鈥淒:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nip1z5\\Debug\\鈥濄€?
-          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_487b4.dir\\Debug\\cmTC_487b4.tlog\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_23284.dir\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥淒:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fvnxio\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_23284.dir\\Debug\\cmTC_23284.tlog\\鈥濄€?
         InitializeBuildStatus:
-          姝ｅ湪鍒涘缓鈥渃mTC_487b4.dir\\Debug\\cmTC_487b4.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
-          姝ｅ湪瀵光€渃mTC_487b4.dir\\Debug\\cmTC_487b4.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+          姝ｅ湪鍒涘缓鈥渃mTC_23284.dir\\Debug\\cmTC_23284.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_23284.dir\\Debug\\cmTC_23284.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
         VcpkgTripletSelection:
           Using triplet "x64-windows" from "D:\\VSPKG\\vcpkg\\installed\\x64-windows\\"
           Using normalized configuration "Debug"
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\VSPKG\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_487b4.dir\\Debug\\\\" /Fd"cmTC_487b4.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nip1z5\\src.cxx"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\VSPKG\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_23284.dir\\Debug\\\\" /Fd"cmTC_23284.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fvnxio\\src.cxx"
           鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.36.32548 鐗?
           鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
           src.cxx
-          cl /c /I"D:\\VSPKG\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_487b4.dir\\Debug\\\\" /Fd"cmTC_487b4.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nip1z5\\src.cxx"
-        D:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nip1z5\\src.cxx(1,10): fatal  error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥減thread.h鈥? No such file or directory [D:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nip1z5\\cmTC_487b4.vcxproj]
-        宸插畬鎴愮敓鎴愰」鐩€淒:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nip1z5\\cmTC_487b4.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+          cl /c /I"D:\\VSPKG\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_23284.dir\\Debug\\\\" /Fd"cmTC_23284.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fvnxio\\src.cxx"
+        D:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fvnxio\\src.cxx(1,10): fatal  error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥減thread.h鈥? No such file or directory [D:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fvnxio\\cmTC_23284.vcxproj]
+        宸插畬鎴愮敓鎴愰」鐩€淒:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fvnxio\\cmTC_23284.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
         
         鐢熸垚澶辫触銆?
         
-        鈥淒:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nip1z5\\cmTC_487b4.vcxproj鈥?榛樿鐩爣) (1) ->
+        鈥淒:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fvnxio\\cmTC_23284.vcxproj鈥?榛樿鐩爣) (1) ->
         (ClCompile 鐩爣) -> 
-          D:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nip1z5\\src.cxx(1,10): fatal  error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥減thread.h鈥? No such file or directory [D:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nip1z5\\cmTC_487b4.vcxproj]
+          D:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fvnxio\\src.cxx(1,10): fatal  error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥減thread.h鈥? No such file or directory [D:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fvnxio\\cmTC_23284.vcxproj]
         
             0 涓鍛?
             1 涓敊璇?
         
-        宸茬敤鏃堕棿 00:00:01.14
+        宸茬敤鏃堕棿 00:00:01.18
         
       exitCode: 1
   -
@@ -232,8 +232,8 @@ events:
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "D:/Dev/Hazel-E/build/CMakeFiles/CMakeScratch/TryCompile-oiz4jl"
-      binary: "D:/Dev/Hazel-E/build/CMakeFiles/CMakeScratch/TryCompile-oiz4jl"
+      source: "D:/Dev/Hazel-E/build/CMakeFiles/CMakeScratch/TryCompile-t7mtlk"
+      binary: "D:/Dev/Hazel-E/build/CMakeFiles/CMakeScratch/TryCompile-t7mtlk"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -242,44 +242,44 @@ events:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'D:/Dev/Hazel-E/build/CMakeFiles/CMakeScratch/TryCompile-oiz4jl'
+        Change Dir: 'D:/Dev/Hazel-E/build/CMakeFiles/CMakeScratch/TryCompile-t7mtlk'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_99b71.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_781b7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.12.12+1cce77968
-        鐢熸垚鍚姩鏃堕棿涓?2025/5/11 21:28:39銆?
+        鐢熸垚鍚姩鏃堕棿涓?2025/5/12 19:00:10銆?
         
-        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oiz4jl\\cmTC_99b71.vcxproj鈥?榛樿鐩爣)銆?
+        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t7mtlk\\cmTC_781b7.vcxproj鈥?榛樿鐩爣)銆?
         PrepareForBuild:
-          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_99b71.dir\\Debug\\鈥濄€?
-          姝ｅ湪鍒涘缓鐩綍鈥淒:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oiz4jl\\Debug\\鈥濄€?
-          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_99b71.dir\\Debug\\cmTC_99b71.tlog\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_781b7.dir\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥淒:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t7mtlk\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_781b7.dir\\Debug\\cmTC_781b7.tlog\\鈥濄€?
         InitializeBuildStatus:
-          姝ｅ湪鍒涘缓鈥渃mTC_99b71.dir\\Debug\\cmTC_99b71.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
-          姝ｅ湪瀵光€渃mTC_99b71.dir\\Debug\\cmTC_99b71.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+          姝ｅ湪鍒涘缓鈥渃mTC_781b7.dir\\Debug\\cmTC_781b7.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_781b7.dir\\Debug\\cmTC_781b7.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
         VcpkgTripletSelection:
           Using triplet "x64-windows" from "D:\\VSPKG\\vcpkg\\installed\\x64-windows\\"
           Using normalized configuration "Debug"
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\VSPKG\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_99b71.dir\\Debug\\\\" /Fd"cmTC_99b71.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oiz4jl\\CheckFunctionExists.cxx"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\VSPKG\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_781b7.dir\\Debug\\\\" /Fd"cmTC_781b7.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t7mtlk\\CheckFunctionExists.cxx"
           鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.36.32548 鐗?
           鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
           CheckFunctionExists.cxx
-          cl /c /I"D:\\VSPKG\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_99b71.dir\\Debug\\\\" /Fd"cmTC_99b71.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oiz4jl\\CheckFunctionExists.cxx"
+          cl /c /I"D:\\VSPKG\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_781b7.dir\\Debug\\\\" /Fd"cmTC_781b7.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t7mtlk\\CheckFunctionExists.cxx"
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oiz4jl\\Debug\\cmTC_99b71.exe" /INCREMENTAL /ILK:"cmTC_99b71.dir\\Debug\\cmTC_99b71.ilk" /NOLOGO /LIBPATH:"D:\\VSPKG\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"D:\\VSPKG\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "D:\\VSPKG\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Dev/Hazel-E/build/CMakeFiles/CMakeScratch/TryCompile-oiz4jl/Debug/cmTC_99b71.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Dev/Hazel-E/build/CMakeFiles/CMakeScratch/TryCompile-oiz4jl/Debug/cmTC_99b71.lib" /MACHINE:X64  /machine:x64 cmTC_99b71.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: 鏃犳硶鎵撳紑鏂囦欢鈥減threads.lib鈥?[D:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oiz4jl\\cmTC_99b71.vcxproj]
-        宸插畬鎴愮敓鎴愰」鐩€淒:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oiz4jl\\cmTC_99b71.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t7mtlk\\Debug\\cmTC_781b7.exe" /INCREMENTAL /ILK:"cmTC_781b7.dir\\Debug\\cmTC_781b7.ilk" /NOLOGO /LIBPATH:"D:\\VSPKG\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"D:\\VSPKG\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "D:\\VSPKG\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Dev/Hazel-E/build/CMakeFiles/CMakeScratch/TryCompile-t7mtlk/Debug/cmTC_781b7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Dev/Hazel-E/build/CMakeFiles/CMakeScratch/TryCompile-t7mtlk/Debug/cmTC_781b7.lib" /MACHINE:X64  /machine:x64 cmTC_781b7.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: 鏃犳硶鎵撳紑鏂囦欢鈥減threads.lib鈥?[D:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t7mtlk\\cmTC_781b7.vcxproj]
+        宸插畬鎴愮敓鎴愰」鐩€淒:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t7mtlk\\cmTC_781b7.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
         
         鐢熸垚澶辫触銆?
         
-        鈥淒:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oiz4jl\\cmTC_99b71.vcxproj鈥?榛樿鐩爣) (1) ->
+        鈥淒:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t7mtlk\\cmTC_781b7.vcxproj鈥?榛樿鐩爣) (1) ->
         (Link 鐩爣) -> 
-          LINK : fatal error LNK1104: 鏃犳硶鎵撳紑鏂囦欢鈥減threads.lib鈥?[D:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oiz4jl\\cmTC_99b71.vcxproj]
+          LINK : fatal error LNK1104: 鏃犳硶鎵撳紑鏂囦欢鈥減threads.lib鈥?[D:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t7mtlk\\cmTC_781b7.vcxproj]
         
             0 涓鍛?
             1 涓敊璇?
         
-        宸茬敤鏃堕棿 00:00:01.25
+        宸茬敤鏃堕棿 00:00:01.27
         
       exitCode: 1
   -
@@ -292,8 +292,8 @@ events:
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "D:/Dev/Hazel-E/build/CMakeFiles/CMakeScratch/TryCompile-qvvduh"
-      binary: "D:/Dev/Hazel-E/build/CMakeFiles/CMakeScratch/TryCompile-qvvduh"
+      source: "D:/Dev/Hazel-E/build/CMakeFiles/CMakeScratch/TryCompile-1lbncu"
+      binary: "D:/Dev/Hazel-E/build/CMakeFiles/CMakeScratch/TryCompile-1lbncu"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -302,39 +302,39 @@ events:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'D:/Dev/Hazel-E/build/CMakeFiles/CMakeScratch/TryCompile-qvvduh'
+        Change Dir: 'D:/Dev/Hazel-E/build/CMakeFiles/CMakeScratch/TryCompile-1lbncu'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b66b8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_dad98.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.12.12+1cce77968
-        鐢熸垚鍚姩鏃堕棿涓?2025/5/11 21:28:41銆?
+        鐢熸垚鍚姩鏃堕棿涓?2025/5/12 19:00:12銆?
         
-        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qvvduh\\cmTC_b66b8.vcxproj鈥?榛樿鐩爣)銆?
+        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1lbncu\\cmTC_dad98.vcxproj鈥?榛樿鐩爣)銆?
         PrepareForBuild:
-          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_b66b8.dir\\Debug\\鈥濄€?
-          姝ｅ湪鍒涘缓鐩綍鈥淒:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qvvduh\\Debug\\鈥濄€?
-          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_b66b8.dir\\Debug\\cmTC_b66b8.tlog\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_dad98.dir\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥淒:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1lbncu\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_dad98.dir\\Debug\\cmTC_dad98.tlog\\鈥濄€?
         InitializeBuildStatus:
-          姝ｅ湪鍒涘缓鈥渃mTC_b66b8.dir\\Debug\\cmTC_b66b8.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
-          姝ｅ湪瀵光€渃mTC_b66b8.dir\\Debug\\cmTC_b66b8.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+          姝ｅ湪鍒涘缓鈥渃mTC_dad98.dir\\Debug\\cmTC_dad98.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_dad98.dir\\Debug\\cmTC_dad98.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
         VcpkgTripletSelection:
           Using triplet "x64-windows" from "D:\\VSPKG\\vcpkg\\installed\\x64-windows\\"
           Using normalized configuration "Debug"
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\VSPKG\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_b66b8.dir\\Debug\\\\" /Fd"cmTC_b66b8.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qvvduh\\CheckFunctionExists.cxx"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\VSPKG\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_dad98.dir\\Debug\\\\" /Fd"cmTC_dad98.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1lbncu\\CheckFunctionExists.cxx"
           鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.36.32548 鐗?
           鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
           CheckFunctionExists.cxx
-          cl /c /I"D:\\VSPKG\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_b66b8.dir\\Debug\\\\" /Fd"cmTC_b66b8.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qvvduh\\CheckFunctionExists.cxx"
+          cl /c /I"D:\\VSPKG\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_dad98.dir\\Debug\\\\" /Fd"cmTC_dad98.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1lbncu\\CheckFunctionExists.cxx"
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qvvduh\\Debug\\cmTC_b66b8.exe" /INCREMENTAL /ILK:"cmTC_b66b8.dir\\Debug\\cmTC_b66b8.ilk" /NOLOGO /LIBPATH:"D:\\VSPKG\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"D:\\VSPKG\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "D:\\VSPKG\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Dev/Hazel-E/build/CMakeFiles/CMakeScratch/TryCompile-qvvduh/Debug/cmTC_b66b8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Dev/Hazel-E/build/CMakeFiles/CMakeScratch/TryCompile-qvvduh/Debug/cmTC_b66b8.lib" /MACHINE:X64  /machine:x64 cmTC_b66b8.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: 鏃犳硶鎵撳紑鏂囦欢鈥減thread.lib鈥?[D:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qvvduh\\cmTC_b66b8.vcxproj]
-        宸插畬鎴愮敓鎴愰」鐩€淒:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qvvduh\\cmTC_b66b8.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1lbncu\\Debug\\cmTC_dad98.exe" /INCREMENTAL /ILK:"cmTC_dad98.dir\\Debug\\cmTC_dad98.ilk" /NOLOGO /LIBPATH:"D:\\VSPKG\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"D:\\VSPKG\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "D:\\VSPKG\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Dev/Hazel-E/build/CMakeFiles/CMakeScratch/TryCompile-1lbncu/Debug/cmTC_dad98.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Dev/Hazel-E/build/CMakeFiles/CMakeScratch/TryCompile-1lbncu/Debug/cmTC_dad98.lib" /MACHINE:X64  /machine:x64 cmTC_dad98.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: 鏃犳硶鎵撳紑鏂囦欢鈥減thread.lib鈥?[D:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1lbncu\\cmTC_dad98.vcxproj]
+        宸插畬鎴愮敓鎴愰」鐩€淒:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1lbncu\\cmTC_dad98.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
         
         鐢熸垚澶辫触銆?
         
-        鈥淒:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qvvduh\\cmTC_b66b8.vcxproj鈥?榛樿鐩爣) (1) ->
+        鈥淒:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1lbncu\\cmTC_dad98.vcxproj鈥?榛樿鐩爣) (1) ->
         (Link 鐩爣) -> 
-          LINK : fatal error LNK1104: 鏃犳硶鎵撳紑鏂囦欢鈥減thread.lib鈥?[D:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qvvduh\\cmTC_b66b8.vcxproj]
+          LINK : fatal error LNK1104: 鏃犳硶鎵撳紑鏂囦欢鈥減thread.lib鈥?[D:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1lbncu\\cmTC_dad98.vcxproj]
         
             0 涓鍛?
             1 涓敊璇?
@@ -351,8 +351,8 @@ events:
     checks:
       - "Looking for _fwrite_nolock"
     directories:
-      source: "D:/Dev/Hazel-E/build/CMakeFiles/CMakeScratch/TryCompile-86prr3"
-      binary: "D:/Dev/Hazel-E/build/CMakeFiles/CMakeScratch/TryCompile-86prr3"
+      source: "D:/Dev/Hazel-E/build/CMakeFiles/CMakeScratch/TryCompile-oth7cm"
+      binary: "D:/Dev/Hazel-E/build/CMakeFiles/CMakeScratch/TryCompile-oth7cm"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -361,48 +361,48 @@ events:
       variable: "HAVE_FWRITE_UNLOCKED"
       cached: true
       stdout: |
-        Change Dir: 'D:/Dev/Hazel-E/build/CMakeFiles/CMakeScratch/TryCompile-86prr3'
+        Change Dir: 'D:/Dev/Hazel-E/build/CMakeFiles/CMakeScratch/TryCompile-oth7cm'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_0eb70.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f9c25.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.12.12+1cce77968
-        鐢熸垚鍚姩鏃堕棿涓?2025/5/11 21:28:43銆?
+        鐢熸垚鍚姩鏃堕棿涓?2025/5/12 19:00:14銆?
         
-        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-86prr3\\cmTC_0eb70.vcxproj鈥?榛樿鐩爣)銆?
+        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oth7cm\\cmTC_f9c25.vcxproj鈥?榛樿鐩爣)銆?
         PrepareForBuild:
-          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_0eb70.dir\\Debug\\鈥濄€?
-          姝ｅ湪鍒涘缓鐩綍鈥淒:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-86prr3\\Debug\\鈥濄€?
-          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_0eb70.dir\\Debug\\cmTC_0eb70.tlog\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_f9c25.dir\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥淒:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oth7cm\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_f9c25.dir\\Debug\\cmTC_f9c25.tlog\\鈥濄€?
         InitializeBuildStatus:
-          姝ｅ湪鍒涘缓鈥渃mTC_0eb70.dir\\Debug\\cmTC_0eb70.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
-          姝ｅ湪瀵光€渃mTC_0eb70.dir\\Debug\\cmTC_0eb70.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+          姝ｅ湪鍒涘缓鈥渃mTC_f9c25.dir\\Debug\\cmTC_f9c25.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_f9c25.dir\\Debug\\cmTC_f9c25.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
         VcpkgTripletSelection:
           Using triplet "x64-windows" from "D:\\VSPKG\\vcpkg\\installed\\x64-windows\\"
           Using normalized configuration "Debug"
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\VSPKG\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_0eb70.dir\\Debug\\\\" /Fd"cmTC_0eb70.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-86prr3\\CheckSymbolExists.cxx"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\VSPKG\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_f9c25.dir\\Debug\\\\" /Fd"cmTC_f9c25.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oth7cm\\CheckSymbolExists.cxx"
           鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.36.32548 鐗?
           鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
           CheckSymbolExists.cxx
-          cl /c /I"D:\\VSPKG\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_0eb70.dir\\Debug\\\\" /Fd"cmTC_0eb70.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-86prr3\\CheckSymbolExists.cxx"
+          cl /c /I"D:\\VSPKG\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_f9c25.dir\\Debug\\\\" /Fd"cmTC_f9c25.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oth7cm\\CheckSymbolExists.cxx"
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-86prr3\\Debug\\cmTC_0eb70.exe" /INCREMENTAL /ILK:"cmTC_0eb70.dir\\Debug\\cmTC_0eb70.ilk" /NOLOGO /LIBPATH:"D:\\VSPKG\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"D:\\VSPKG\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "D:\\VSPKG\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Dev/Hazel-E/build/CMakeFiles/CMakeScratch/TryCompile-86prr3/Debug/cmTC_0eb70.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Dev/Hazel-E/build/CMakeFiles/CMakeScratch/TryCompile-86prr3/Debug/cmTC_0eb70.lib" /MACHINE:X64  /machine:x64 cmTC_0eb70.dir\\Debug\\CheckSymbolExists.obj
-          cmTC_0eb70.vcxproj -> D:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-86prr3\\Debug\\cmTC_0eb70.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oth7cm\\Debug\\cmTC_f9c25.exe" /INCREMENTAL /ILK:"cmTC_f9c25.dir\\Debug\\cmTC_f9c25.ilk" /NOLOGO /LIBPATH:"D:\\VSPKG\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"D:\\VSPKG\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "D:\\VSPKG\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Dev/Hazel-E/build/CMakeFiles/CMakeScratch/TryCompile-oth7cm/Debug/cmTC_f9c25.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Dev/Hazel-E/build/CMakeFiles/CMakeScratch/TryCompile-oth7cm/Debug/cmTC_f9c25.lib" /MACHINE:X64  /machine:x64 cmTC_f9c25.dir\\Debug\\CheckSymbolExists.obj
+          cmTC_f9c25.vcxproj -> D:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oth7cm\\Debug\\cmTC_f9c25.exe
         AppLocalFromInstalled:
-          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\VSPKG\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-86prr3\\Debug\\cmTC_0eb70.exe" "D:\\VSPKG\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_0eb70.dir\\Debug\\cmTC_0eb70.tlog\\cmTC_0eb70.write.1u.tlog" "cmTC_0eb70.dir\\Debug\\vcpkg.applocal.log"
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\VSPKG\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oth7cm\\Debug\\cmTC_f9c25.exe" "D:\\VSPKG\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_f9c25.dir\\Debug\\cmTC_f9c25.tlog\\cmTC_f9c25.write.1u.tlog" "cmTC_f9c25.dir\\Debug\\vcpkg.applocal.log"
           'pwsh.exe' 涓嶆槸鍐呴儴鎴栧閮ㄥ懡浠わ紝涔熶笉鏄彲杩愯鐨勭▼搴?
           鎴栨壒澶勭悊鏂囦欢銆?
-          鍛戒护鈥減wsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\VSPKG\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-86prr3\\Debug\\cmTC_0eb70.exe" "D:\\VSPKG\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_0eb70.dir\\Debug\\cmTC_0eb70.tlog\\cmTC_0eb70.write.1u.tlog" "cmTC_0eb70.dir\\Debug\\vcpkg.applocal.log"鈥濆凡閫€鍑猴紝浠ｇ爜涓?9009銆?
-          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "D:\\VSPKG\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-86prr3\\Debug\\cmTC_0eb70.exe" "D:\\VSPKG\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_0eb70.dir\\Debug\\cmTC_0eb70.tlog\\cmTC_0eb70.write.1u.tlog" "cmTC_0eb70.dir\\Debug\\vcpkg.applocal.log"
+          鍛戒护鈥減wsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\VSPKG\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oth7cm\\Debug\\cmTC_f9c25.exe" "D:\\VSPKG\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_f9c25.dir\\Debug\\cmTC_f9c25.tlog\\cmTC_f9c25.write.1u.tlog" "cmTC_f9c25.dir\\Debug\\vcpkg.applocal.log"鈥濆凡閫€鍑猴紝浠ｇ爜涓?9009銆?
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "D:\\VSPKG\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oth7cm\\Debug\\cmTC_f9c25.exe" "D:\\VSPKG\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_f9c25.dir\\Debug\\cmTC_f9c25.tlog\\cmTC_f9c25.write.1u.tlog" "cmTC_f9c25.dir\\Debug\\vcpkg.applocal.log"
         FinalizeBuildStatus:
-          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_0eb70.dir\\Debug\\cmTC_0eb70.tlog\\unsuccessfulbuild鈥濄€?
-          姝ｅ湪瀵光€渃mTC_0eb70.dir\\Debug\\cmTC_0eb70.tlog\\cmTC_0eb70.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
-        宸插畬鎴愮敓鎴愰」鐩€淒:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-86prr3\\cmTC_0eb70.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_f9c25.dir\\Debug\\cmTC_f9c25.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_f9c25.dir\\Debug\\cmTC_f9c25.tlog\\cmTC_f9c25.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淒:\\Dev\\Hazel-E\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oth7cm\\cmTC_f9c25.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
         
         宸叉垚鍔熺敓鎴愩€?
             0 涓鍛?
             0 涓敊璇?
         
-        宸茬敤鏃堕棿 00:00:02.66
+        宸茬敤鏃堕棿 00:00:02.67
         
       exitCode: 0
 ...

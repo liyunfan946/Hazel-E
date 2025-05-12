@@ -1,5 +1,7 @@
 #pragma once
 #include "core/core.h"
+#include "event/Event.h"
+#include "event/WindowEvent.h"
 
 namespace Hazel_E
 {
@@ -11,7 +13,5 @@ namespace Hazel_E
         void Run();
     };
 
-   
-     Application* CreateApplication();
-   
+    Application* CreateApplication();
 }

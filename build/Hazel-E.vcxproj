@@ -340,6 +340,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="D:\Dev\Hazel-E\Hazel_E\src\Log.cpp" />
     <ClCompile Include="D:\Dev\Hazel-E\Hazel_E\src\Application.cpp" />
     <ClInclude Include="D:\Dev\Hazel-E\Hazel_E\src\EntryPoint.h" />
+    <ClInclude Include="D:\Dev\Hazel-E\Hazel_E\src\event\Event.h" />
+    <ClInclude Include="D:\Dev\Hazel-E\Hazel_E\src\event\WindowEvent.h" />
+    <ClInclude Include="D:\Dev\Hazel-E\Hazel_E\src\event\ApplicationEvent.h" />
+    <ClInclude Include="D:\Dev\Hazel-E\Hazel_E\src\event\KeyEvent.h" />
+    <ClInclude Include="D:\Dev\Hazel-E\Hazel_E\src\event\MouseEvent.h" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

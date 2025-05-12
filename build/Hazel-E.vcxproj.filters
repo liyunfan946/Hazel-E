@@ -12,6 +12,21 @@
     <ClInclude Include="D:\Dev\Hazel-E\Hazel_E\src\EntryPoint.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="D:\Dev\Hazel-E\Hazel_E\src\event\Event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dev\Hazel-E\Hazel_E\src\event\WindowEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dev\Hazel-E\Hazel_E\src\event\ApplicationEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dev\Hazel-E\Hazel_E\src\event\KeyEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dev\Hazel-E\Hazel_E\src\event\MouseEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="D:\Dev\Hazel-E\CMakeLists.txt" />

@@ -3,6 +3,7 @@
 #include <memory>
 #include "core/core.h"
 #include "spdlog/spdlog.h"
+#include "spdlog/fmt/ostr.h"
 
 namespace Hazel_E
 {
@@ -14,22 +15,24 @@ namespace Hazel_E
         static std::shared_ptr<spdlog::logger>& GetClientLogger();
 
     private:
-     static std::shared_ptr<spdlog::logger> s_CoreLogger;
-     static std::shared_ptr<spdlog::logger> s_ClientLogger;
+        static std::shared_ptr<spdlog::logger> s_CoreLogger;
+        static std::shared_ptr<spdlog::logger> s_ClientLogger;
     };
 
-   
-
-    // 静态成员函数的实现
+    // Static member function implementations
     inline std::shared_ptr<spdlog::logger>& Log::GetCoreLogger() { return s_CoreLogger; }
     inline std::shared_ptr<spdlog::logger>& Log::GetClientLogger() { return s_ClientLogger; }
 }
-#define HAZEL_CORE_ERROR(...)       ::Hazel_E::Log::GetCoreLogger()->error(__VA_ARGS__)//使用宏定义以便输出日志   最前面的::表示明确调用全局的Hazel_E作用域
+
+// Core logging macros
+#define HAZEL_CORE_ERROR(...)       ::Hazel_E::Log::GetCoreLogger()->error(__VA_ARGS__)
 #define HAZEL_CORE_WARN(...)        ::Hazel_E::Log::GetCoreLogger()->warn(__VA_ARGS__)
 #define HAZEL_CORE_INFO(...)        ::Hazel_E::Log::GetCoreLogger()->info(__VA_ARGS__)
 #define HAZEL_CORE_TRACE(...)       ::Hazel_E::Log::GetCoreLogger()->trace(__VA_ARGS__)
+#define HZ_TRACE(...)               ::Hazel_E::Log::GetCoreLogger()->trace(__VA_ARGS__)
 
-#define HAZEL_ERROR(...)            ::Hazel_E::Log::GetClientLogger()->error(__VA_ARGS__)//客户端日志宏
+// Client logging macros
+#define HAZEL_ERROR(...)            ::Hazel_E::Log::GetClientLogger()->error(__VA_ARGS__)
 #define HAZEL_WARN(...)             ::Hazel_E::Log::GetClientLogger()->warn(__VA_ARGS__)
 #define HAZEL_INFO(...)             ::Hazel_E::Log::GetClientLogger()->info(__VA_ARGS__)
 #define HAZEL_TRACE(...)            ::Hazel_E::Log::GetClientLogger()->trace(__VA_ARGS__)

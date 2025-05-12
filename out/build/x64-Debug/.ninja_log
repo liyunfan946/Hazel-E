@@ -1,0 +1,11 @@
+# ninja log v6
+24	49	7687505413650304	clean	3f9b83505c84670f
+55	1103	7687505414630236	Hazel_E/additional/spdlog/CMakeFiles/spdlog.dir/src/file_sinks.cpp.obj	37a0f3d61fffa3e5
+90	1358	7687505414972820	Hazel_E/additional/spdlog/CMakeFiles/spdlog.dir/src/bundled_fmtlib_format.cpp.obj	b742ce2f3b062504
+44	1357	7687505414513531	Hazel_E/additional/spdlog/CMakeFiles/spdlog.dir/src/color_sinks.cpp.obj	257c9535a9153e1d
+29	1353	7687505414364769	Hazel_E/additional/spdlog/CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.obj	436edd3481234ac7
+66	1107	7687505414728841	Hazel_E/additional/spdlog/CMakeFiles/spdlog.dir/src/async.cpp.obj	342afa7e9914b61
+78	1221	7687505414854158	Hazel_E/additional/spdlog/CMakeFiles/spdlog.dir/src/cfg.cpp.obj	37619a9db9ba1731
+96	1166	7687505415024521	CMakeFiles/Hazel-E.dir/Hazel_E/src/Log.cpp.obj	5c32a55b2aacd6cb
+17	1933	7687505414239347	Hazel_E/additional/spdlog/CMakeFiles/spdlog.dir/src/spdlog.cpp.obj	dfd13fa0cf98f601
+108	2217	7687505415152624	CMakeFiles/T-1.dir/T-1/src/stratsandbox.cpp.obj	b2952d39a1147eb1

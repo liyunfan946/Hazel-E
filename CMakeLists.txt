@@ -25,12 +25,20 @@ add_library(Hazel-E SHARED
     ${CMAKE_SOURCE_DIR}/Hazel_E/src/Log.cpp
     ${CMAKE_SOURCE_DIR}/Hazel_E/src/Application.cpp
     ${CMAKE_SOURCE_DIR}/Hazel_E/src/EntryPoint.h
-)
+    ${CMAKE_SOURCE_DIR}/Hazel_E/src/event/Event.h
+    ${CMAKE_SOURCE_DIR}/Hazel_E/src/event/WindowEvent.h
+    ${CMAKE_SOURCE_DIR}/Hazel_E/src/event/ApplicationEvent.h
+    ${CMAKE_SOURCE_DIR}/Hazel_E/src/event/KeyEvent.h
+    ${CMAKE_SOURCE_DIR}/Hazel_E/src/event/MouseEvent.h)
 
 # 定义可执行文件
 add_executable(T-1
     ${CMAKE_SOURCE_DIR}/T-1/src/stratsandbox.cpp
-)
+    ${CMAKE_SOURCE_DIR}/Hazel_E/src/event/Event.h
+    ${CMAKE_SOURCE_DIR}/Hazel_E/src/event/WindowEvent.h
+    ${CMAKE_SOURCE_DIR}/Hazel_E/src/event/ApplicationEvent.h
+    ${CMAKE_SOURCE_DIR}/Hazel_E/src/event/KeyEvent.h
+    ${CMAKE_SOURCE_DIR}/Hazel_E/src/event/MouseEvent.h)
 
 # 链接库
 target_link_libraries(T-1 PRIVATE Hazel-E)
@@ -87,8 +95,7 @@ set_target_properties(T-1 PROPERTIES
 # 添加预处理器定义
 target_compile_definitions(Hazel-E PRIVATE 
     HZ_PLATFORM_WINDOWS 
-    HZ_BUILD_DLL
-)
+    HZ_BUILD_DLL)
 
 # 确保静态成员变量正确链接
 # （不需要特殊处理，只要在.cpp中定义即可）

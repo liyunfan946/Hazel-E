@@ -337,6 +337,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="D:\Dev\Hazel-E\T-1\src\stratsandbox.cpp" />
+    <ClInclude Include="D:\Dev\Hazel-E\Hazel_E\src\event\Event.h" />
+    <ClInclude Include="D:\Dev\Hazel-E\Hazel_E\src\event\WindowEvent.h" />
+    <ClInclude Include="D:\Dev\Hazel-E\Hazel_E\src\event\ApplicationEvent.h" />
+    <ClInclude Include="D:\Dev\Hazel-E\Hazel_E\src\event\KeyEvent.h" />
+    <ClInclude Include="D:\Dev\Hazel-E\Hazel_E\src\event\MouseEvent.h" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
