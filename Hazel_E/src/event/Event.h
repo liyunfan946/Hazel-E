@@ -1,7 +1,5 @@
 #pragma once
 #include <core/core.h>
-#include <string>
-#include <functional>
 //存储事件的基类
 
 
@@ -33,20 +31,20 @@ namespace HazelEvent {
     enum EventCategory//  事件类别
     {
         None = 0,
-        EventCategoryApplication = BIT(0),// 应用事件               BIT(0) → 1 << 0 → 000...0001（即 1）
-        EventCategoryInput = BIT(1),// 输入事件                     BIT(1) → 1 << 1 → 000...0010（即 2）
-        EventCategoryKeyboard = BIT(2),//  键盘事件                 BIT(2) → 1 << 2 → 000...0100（即 4）
-        EventCategoryMouse = BIT(3),// 鼠标事件                     BIT(3) → 1 << 3 → 000...1000（即 8）
-        EventCategoryMouseButton = BIT(4)// 鼠标按键事件             BIT(4) → 1 << 4 → 000...10000（即 16）
+        EventCategoryApplication = BIT(0),// 应用事件               BIT(0) → 1 << 0     → 000...0001（即 1）
+        EventCategoryInput = BIT(1),// 输入事件                     BIT(1) → 1 << 1      → 000...0010（即 2）
+        EventCategoryKeyboard = BIT(2),//  键盘事件                 BIT(2) → 1 << 2      → 000...0100（即 4）
+        EventCategoryMouse = BIT(3),// 鼠标事件                     BIT(3) → 1 << 3       → 000...1000（即 8）
+        EventCategoryMouseButton = BIT(4)// 鼠标按键事件             BIT(4) → 1 << 4       → 000...10000（即 16）
     };
 
 #define EVENT_CLASS_TYPE(type) \
-    static EventType GetStaticType() { return EventType::##type; } \
+    static EventType GetStaticType() { return EventType::type; } \
     virtual EventType GetEventType() const override { return GetStaticType(); } \
-    virtual const char* GetName() const override { return #type; }
+    virtual const char* GetName() const override { return #type; }//当你在一个宏定义中使用 # 时，它会将宏参数转换成一个字符串,而## 作用是连接两个字符串，而不是替换字符串中的变量。
 
 
-#define EVENT_CLASS_CATEGORY(category) virtual int GetCategoryFlags() const override { return category; }
+#define EVENT_CLASS_CATEGORY(category)          virtual int GetCategoryFlags() const override { return category; }
 
 }
 
@@ -64,6 +62,7 @@ public:
     virtual HazelEvent::EventType GetEventType() const = 0;//获取事件类型
     virtual const char* GetName() const = 0;//获取事件名
     virtual int GetCategoryFlags() const = 0;//事件是否是属于某个类别
+    //（以上三个函数都被宏函数 EVENT_CLASS_TYPE 和 EVENT_CLASS_CATEGORY 封装）
     virtual std::string ToString() const { return GetName(); }//将事件转化为字符串
 
     inline bool IsInCategory(HazelEvent::EventCategory category)
@@ -75,13 +74,14 @@ public:
 
 protected:
 
-    bool Handled = false;
+    bool Handled = false;// 事件是否被处理
 };
 
 class EventDispatcher//  事件分发器
 {
     template<typename T>
     using EventFn = std::function<bool(T&)>;
+
 public:
     EventDispatcher(Event& event)
         :m_Event(event)
@@ -91,17 +91,19 @@ public:
     template<typename T>
     bool Dispatch(EventFn<T> func)
     {
-        if (m_Event.GetEventType() == T::GetStaticType())
+        if (m_Event.GetEventType() == T::GetStaticType())//  判断事件类型是否匹配
         {
-            m_Event.Handled = func(*(T*)&m_Event);
+            m_Event.Handled = func(*(T*)&m_Event);// 调用事件处理函数
             return true;
         }
         return false;
     }
 private:
-    Event& m_Event;
+    Event& m_Event;// 事件
 };
-inline std::ostream& operator<<(std::ostream& os, const Event& e)
+
+
+inline std::ostream& operator<<(std::ostream& os, const Event& ev)
 {
-    return os << e.ToString();// 将事件转化为字符串
+    return os << ev.ToString();// 将事件转化为字符串
 }

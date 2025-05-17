@@ -1,6 +1,5 @@
 #pragma once
 
-#include <sstream>
 #include "event/Event.h"
 namespace Hazel_E {
 
@@ -39,8 +38,8 @@ namespace Hazel_E {
                 ss << "MouseScrolledEvent: " << GetXOffset() << ", " << GetYOffset();
                 return ss.str();
             }
-            EVENT_CLASS_TYPE(MouseScrolled)
-            EVENT_CLASS_CATEGORY(EventCategoryMouse | EventCategoryInput)
+            EVENT_CLASS_TYPE(MouseScrolled)//返回鼠标滚动事件
+            EVENT_CLASS_CATEGORY(EventCategoryMouse | EventCategoryInput)//返回鼠标滚轮事件
 
 
 

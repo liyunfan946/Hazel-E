@@ -1379,7 +1379,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "general;spdlog::spdlog;"
+			"value" : "general;spdlog::spdlog;general;spdlog::spdlog;"
 		},
 		{
 			"name" : "Hazel-E_SOURCE_DIR",

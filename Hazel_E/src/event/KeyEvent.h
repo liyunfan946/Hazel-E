@@ -1,6 +1,5 @@
 #pragma once
 #include "event/Event.h"
-#include <sstream>
 
 namespace Hazel_E {
 
@@ -10,7 +9,7 @@ namespace Hazel_E {
 		inline int GetKeyCode() const {
 			return m_KeyCode;
 		}
-EVENT_CLASS_CATEGORY(EventCategorKeyboard|EventCategoryInput)
+EVENT_CLASS_CATEGORY(EventCategorKeyboard|EventCategoryInput)//	返回事件类型
 	protected:
 		KeyEvent(int keycode)
 			: m_KeyCode(keycode){ }
@@ -56,7 +55,7 @@ EVENT_CLASS_CATEGORY(EventCategorKeyboard|EventCategoryInput)
 		EVENT_CLASS_TYPE(KeyPressedEvent)
 
 	private:
-		int m_RepeatCount;
+		int m_RepeatCount;//重复次数
 
 
 

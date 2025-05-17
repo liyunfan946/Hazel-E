@@ -6,8 +6,9 @@ namespace HazelEvent {
     class WindowCloseEvent : public Event
     {
     public:
-        EVENT_CLASS_TYPE(WindowClose)
-        EVENT_CLASS_CATEGORY(EventCategoryApplication)
+        EVENT_CLASS_TYPE(WindowClose)//这个宏的作用是给这个类添加一个类型，这个类型是这个类的名字
+       
+        EVENT_CLASS_CATEGORY(EventCategoryApplication)//返回应用程序事件
     };
 
     class WindowResizeEvent : public Event

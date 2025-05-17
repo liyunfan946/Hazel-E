@@ -247,7 +247,7 @@ Hazel-E_BINARY_DIR:STATIC=D:/Dev/Hazel-E/out/build/x64-Debug
 Hazel-E_IS_TOP_LEVEL:STATIC=ON
 
 //Dependencies for the target
-Hazel-E_LIB_DEPENDS:STATIC=general;spdlog::spdlog;
+Hazel-E_LIB_DEPENDS:STATIC=general;spdlog::spdlog;general;spdlog::spdlog;
 
 //Value Computed by CMake
 Hazel-E_SOURCE_DIR:STATIC=D:/Dev/Hazel-E

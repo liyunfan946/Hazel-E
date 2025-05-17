@@ -1,10 +1,10 @@
 #pragma once
 #include "event//Event.h"
-#include <sstream>
+
 
 namespace Hazel_E {
 
-	class Hazel_E_API ApplicationEvent : public Event
+	class Hazel_E_API WindowResizeEvent : public Event
 	{
 	public:
 		WindowResizeEvent(unsigned int width, unsigned int height)
