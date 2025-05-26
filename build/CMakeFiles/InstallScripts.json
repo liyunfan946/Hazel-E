@@ -1,8 +1,10 @@
 {
 	"InstallScripts" : 
 	[
-		"D:/Dev/Hazel-E/build/cmake_install.cmake",
-		"D:/Dev/Hazel-E/build/Hazel_E/additional/spdlog/cmake_install.cmake"
+		"D:/Dev/Hazel-E/Hazel-E/build/cmake_install.cmake",
+		"D:/Dev/Hazel-E/Hazel-E/build/Hazel_E/additional/spdlog/cmake_install.cmake",
+		"D:/Dev/Hazel-E/Hazel-E/build/Hazel_E/additional/glfw/cmake_install.cmake",
+		"D:/Dev/Hazel-E/Hazel-E/build/Hazel_E/additional/glfw/src/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

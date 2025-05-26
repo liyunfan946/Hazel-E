@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Dev\Hazel-E\Hazel-E\build\CMakeFiles\33639cad3d04bac1a7edcdd3790dd79d\update_mappings.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Dev\Hazel-E\Hazel-E\Hazel_E\additional\glfw\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Dev\Hazel-E\Hazel-E\Hazel_E\additional\glfw\src\mappings.h.in">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="D:\Dev\Hazel-E\Hazel-E\Hazel_E\additional\glfw\CMake\GenerateMappings.cmake" />
+    <None Include="D:\Dev\Hazel-E\Hazel-E\build\Hazel_E\additional\glfw\src\CMakeFiles\update_mappings" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{7CDEA51B-607E-3DC9-8251-F28180D59A67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{E8A417F1-D78C-35D7-A2CA-061FFE0D15D3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

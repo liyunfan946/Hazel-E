@@ -3,7 +3,7 @@
 //存储事件的基类
 
 
-namespace HazelEvent {
+namespace Hazel_E {
 
     enum class EventType
     {
@@ -59,13 +59,14 @@ class HAZEL_API Event   //  事件基类
 
 public:
 
-    virtual HazelEvent::EventType GetEventType() const = 0;//获取事件类型
+    virtual Hazel_E::EventType GetEventType() const = 0;//获取事件类型
     virtual const char* GetName() const = 0;//获取事件名
     virtual int GetCategoryFlags() const = 0;//事件是否是属于某个类别
     //（以上三个函数都被宏函数 EVENT_CLASS_TYPE 和 EVENT_CLASS_CATEGORY 封装）
+
     virtual std::string ToString() const { return GetName(); }//将事件转化为字符串
 
-    inline bool IsInCategory(HazelEvent::EventCategory category)
+    inline bool IsInCategory(Hazel_E::EventCategory category)
     {
         return GetCategoryFlags() & category;
         //检查 GetCategoryFlags() 返回的标志位（bitmask）中是否包含 category 指定的标志位，并返回匹配的结果

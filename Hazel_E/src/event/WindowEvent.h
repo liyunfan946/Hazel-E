@@ -1,14 +1,14 @@
 #pragma once
 #include "Event.h"
 
-namespace HazelEvent {
+namespace Hazel_E {
 
     class WindowCloseEvent : public Event
     {
     public:
-        EVENT_CLASS_TYPE(WindowClose)//Õâ¸öºêµÄ×÷ÓÃÊÇ¸øÕâ¸öÀàÌí¼ÓÒ»¸öÀàĞÍ£¬Õâ¸öÀàĞÍÊÇÕâ¸öÀàµÄÃû×Ö
+        EVENT_CLASS_TYPE(WindowClose)//è¿™ä¸ªå®çš„ä½œç”¨æ˜¯ç»™è¿™ä¸ªç±»æ·»åŠ ä¸€ä¸ªç±»å‹ï¼Œè¿™ä¸ªç±»å‹æ˜¯è¿™ä¸ªç±»çš„åå­—
        
-        EVENT_CLASS_CATEGORY(EventCategoryApplication)//·µ»ØÓ¦ÓÃ³ÌĞòÊÂ¼ş
+        EVENT_CLASS_CATEGORY(EventCategoryApplication)//è¿”å›åº”ç”¨ç¨‹åºäº‹ä»¶
     };
 
     class WindowResizeEvent : public Event
@@ -28,3 +28,4 @@ namespace HazelEvent {
     };
 
 }
+

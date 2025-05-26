@@ -21,7 +21,7 @@ C:/Program Files/CMake/share/cmake-4.0/Modules/Platform/Windows-MSVC-CXX.cmake
 C:/Program Files/CMake/share/cmake-4.0/Modules/Platform/Windows-MSVC.cmake
 C:/Program Files/CMake/share/cmake-4.0/Modules/Platform/Windows.cmake
 C:/Program Files/CMake/share/cmake-4.0/Modules/Platform/WindowsPaths.cmake
-D:/Dev/Hazel-E/CMakeLists.txt
-D:/Dev/Hazel-E/build/CMakeFiles/4.0.2/CMakeCXXCompiler.cmake
-D:/Dev/Hazel-E/build/CMakeFiles/4.0.2/CMakeRCCompiler.cmake
-D:/Dev/Hazel-E/build/CMakeFiles/4.0.2/CMakeSystem.cmake
+D:/Dev/Hazel-E/Hazel-E/CMakeLists.txt
+D:/Dev/Hazel-E/Hazel-E/build/CMakeFiles/4.0.2/CMakeCXXCompiler.cmake
+D:/Dev/Hazel-E/Hazel-E/build/CMakeFiles/4.0.2/CMakeRCCompiler.cmake
+D:/Dev/Hazel-E/Hazel-E/build/CMakeFiles/4.0.2/CMakeSystem.cmake

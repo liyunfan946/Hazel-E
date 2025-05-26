@@ -1,60 +1,84 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="D:\Dev\Hazel-E\build\CMakeFiles\Hazel-E.dir\cmake_pch.cxx">
+    <ClCompile Include="D:\Dev\Hazel-E\Hazel-E\build\CMakeFiles\Hazel-E.dir\cmake_pch.cxx">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Dev\Hazel-E\Hazel_E\src\Log.cpp">
+    <ClCompile Include="D:\Dev\Hazel-E\Hazel-E\Hazel_E\src\Application.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Dev\Hazel-E\Hazel_E\src\Application.cpp">
+    <ClCompile Include="D:\Dev\Hazel-E\Hazel-E\Hazel_E\src\HZPCH.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Dev\Hazel-E\Hazel-E\Hazel_E\src\Log.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="D:\Dev\Hazel-E\Hazel_E\src\EntryPoint.h">
+    <ClInclude Include="D:\Dev\Hazel-E\Hazel-E\Hazel_E\src\Application.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev\Hazel-E\Hazel_E\src\event\Event.h">
+    <ClInclude Include="D:\Dev\Hazel-E\Hazel-E\Hazel_E\src\EntryPoint.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev\Hazel-E\Hazel_E\src\event\WindowEvent.h">
+    <ClInclude Include="D:\Dev\Hazel-E\Hazel-E\Hazel_E\src\HZPCH.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev\Hazel-E\Hazel_E\src\event\ApplicationEvent.h">
+    <ClInclude Include="D:\Dev\Hazel-E\Hazel-E\Hazel_E\src\Hazel_E.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev\Hazel-E\Hazel_E\src\event\KeyEvent.h">
+    <ClInclude Include="D:\Dev\Hazel-E\Hazel-E\Hazel_E\src\Log.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev\Hazel-E\Hazel_E\src\event\MouseEvent.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="D:\Dev\Hazel-E\Hazel-E\Hazel_E\src\core\core.h">
+      <Filter>core</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev\Hazel-E\build\CMakeFiles\Hazel-E.dir\Debug\cmake_pch.hxx">
+    <ClInclude Include="D:\Dev\Hazel-E\Hazel-E\Hazel_E\src\event\ApplicationEvent.h">
+      <Filter>event</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dev\Hazel-E\Hazel-E\Hazel_E\src\event\Event.h">
+      <Filter>event</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dev\Hazel-E\Hazel-E\Hazel_E\src\event\KeyEvent.h">
+      <Filter>event</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dev\Hazel-E\Hazel-E\Hazel_E\src\event\MouseEvent.h">
+      <Filter>event</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dev\Hazel-E\Hazel-E\Hazel_E\src\event\WindowEvent.h">
+      <Filter>event</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Dev\Hazel-E\Hazel-E\build\CMakeFiles\Hazel-E.dir\Debug\cmake_pch.hxx">
       <Filter>Precompile Header File</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev\Hazel-E\build\CMakeFiles\Hazel-E.dir\Release\cmake_pch.hxx">
+    <ClInclude Include="D:\Dev\Hazel-E\Hazel-E\build\CMakeFiles\Hazel-E.dir\Release\cmake_pch.hxx">
       <Filter>Precompile Header File</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev\Hazel-E\build\CMakeFiles\Hazel-E.dir\MinSizeRel\cmake_pch.hxx">
+    <ClInclude Include="D:\Dev\Hazel-E\Hazel-E\build\CMakeFiles\Hazel-E.dir\MinSizeRel\cmake_pch.hxx">
       <Filter>Precompile Header File</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Dev\Hazel-E\build\CMakeFiles\Hazel-E.dir\RelWithDebInfo\cmake_pch.hxx">
+    <ClInclude Include="D:\Dev\Hazel-E\Hazel-E\build\CMakeFiles\Hazel-E.dir\RelWithDebInfo\cmake_pch.hxx">
       <Filter>Precompile Header File</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Dev\Hazel-E\CMakeLists.txt" />
+    <CustomBuild Include="D:\Dev\Hazel-E\Hazel-E\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{B118A975-4AB6-3D81-B58B-58BCC3C2C3C4}</UniqueIdentifier>
+      <UniqueIdentifier>{E8A417F1-D78C-35D7-A2CA-061FFE0D15D3}</UniqueIdentifier>
     </Filter>
     <Filter Include="Precompile Header File">
-      <UniqueIdentifier>{236749E5-651F-3ED0-B56F-DA8EB789C8F6}</UniqueIdentifier>
+      <UniqueIdentifier>{42E519CD-EF7F-3F60-AEA7-9D78A13D41CE}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{5B575879-961C-3D2D-A36D-D6564D0BB162}</UniqueIdentifier>
+      <UniqueIdentifier>{69DF8844-64FF-3B9A-B5FB-D193318F1916}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core">
+      <UniqueIdentifier>{6F10FDAC-58E3-3C81-A444-13DF11805E5D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="event">
+      <UniqueIdentifier>{C08DDADC-8F81-3A1D-B9EA-6F20D17785D0}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

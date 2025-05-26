@@ -8,6 +8,6 @@ C:/Program Files/CMake/share/cmake-4.0/Modules/FindPackageMessage.cmake
 C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake
 C:/Program Files/CMake/share/cmake-4.0/Modules/GNUInstallDirs.cmake
 C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake
-D:/Dev/Hazel-E/Hazel_E/additional/spdlog/CMakeLists.txt
-D:/Dev/Hazel-E/Hazel_E/additional/spdlog/cmake/ide.cmake
-D:/Dev/Hazel-E/Hazel_E/additional/spdlog/cmake/utils.cmake
+D:/Dev/Hazel-E/Hazel-E/Hazel_E/additional/spdlog/CMakeLists.txt
+D:/Dev/Hazel-E/Hazel-E/Hazel_E/additional/spdlog/cmake/ide.cmake
+D:/Dev/Hazel-E/Hazel-E/Hazel_E/additional/spdlog/cmake/utils.cmake

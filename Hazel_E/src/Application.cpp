@@ -16,13 +16,13 @@ namespace Hazel_E
 
     void Application::Run()
     {
-        HazelEvent::WindowResizeEvent event(1280, 720);
+        Hazel_E::WindowResizeEvent event(1280, 720);
         HZ_TRACE("Window resize event: {}", event.ToString());
 
-        if (event.IsInCategory(HazelEvent::EventCategoryApplication)) {
+        if (event.IsInCategory( Hazel_E::EventCategoryApplication)) {
             HZ_TRACE("Event is in application category");
         }
-        if (event.IsInCategory(HazelEvent::EventCategoryInput)) {
+        if (event.IsInCategory( Hazel_E::EventCategoryInput)) {
             HZ_TRACE("Event is in input category");
         }
 
